@@ -33,7 +33,10 @@ favicon: |
 links:
   - link_name: Twitter
     link: https://twitter.com/andrewshell
+    rel: me
   - link_name: Mastodon
     link: https://pub.peakthink.org/@andrewshell
+    rel: me
   - link_name: GitHub
     link: https://github.com/andrewshell
+    rel: me

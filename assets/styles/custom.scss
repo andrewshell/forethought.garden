@@ -29,15 +29,51 @@
   --logo: url("/favicon-dark.svg");
 }
 
+html {
+  font-size: 1.25rem;
+}
+
 .singlePage {
   padding: 25px 5vw;
   max-width: 42rem;
   margin: 0 auto;
 }
 
+header {
+  flex-direction: column;
+  gap: 0.5em;
+}
+
 #page-title {
-  background-image: var(--logo);
-  background-repeat: no-repeat;
-  background-size: 1em 1em;
-  padding-left: 1.2em;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#navigation_buttons ul {
+  padding-left: 0;
+  list-style-type: none;
+
+  li {
+    display: inline-block;
+  }
+
+  li a {
+    padding: 0 1em;
+  }
+}
+
+header {
+  #search-icon {
+    background-color: inherit;
+    border-radius: inherit;
+    height: inherit;
+    display: inherit;
+    align-items: inherit;
+    cursor: pointer;
+    font-weight: 700;
+    color: var(--secondary);
+    &:hover {
+      color: var(--tertiary) !important;
+    }
+  }
 }
