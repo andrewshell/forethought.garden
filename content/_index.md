@@ -1,27 +1,13 @@
 ---
-title: 🪴 Quartz 3.
+title: Forethought Garden
 enableToc: false
 ---
 
-Host your second brain and [digital garden](https://jzhao.xyz/posts/networked-thought) for free. Quartz features
+Welcome to Forethought Garden, where I'll cultivate a rich and diverse collection of knowledge around tools for personal growth and self-improvement. My focus is on topics such as mindset, attitude, focus, discipline, and manifestation. I'll aim to provide a comprehensive resource for anyone seeking to improve their mental and emotional well-being.
 
-1. Extremely fast natural-language [[notes/search]]
-2. Customizable and hackable design based on [Hugo](https://gohugo.io/)
-3. Automatically generated backlinks, link previews, and local graph
-4. Built-in [[notes/CJK + Latex Support (测试) | CJK + Latex Support]] and [[notes/callouts | Admonition-style callouts]]
-5. Support for both Markdown Links and Wikilinks
+I understand the importance of having the right tools in your arsenal to navigate life's challenges and reach your full potential. That's why I have created this digital garden-style wiki, where you can find a wealth of information and resources to help you grow and develop.
 
-Check out some of the [amazing gardens that community members](notes/showcase.md) have published with Quartz or read about [why I made Quartz](notes/philosophy.md) to begin with.
+At Forethought Garden, personal growth is an ongoing journey, and everyone has the potential to achieve their goals and live a fulfilling life. Whether you're a seasoned practitioner or just starting your self-improvement journey, you'll find something of value here.
 
-## Get Started
-> 📚 Step 1: [Setup your own digital garden using Quartz](notes/setup.md)
-
-Returning user? Figure out how to [[notes/updating|update]] your existing Quartz garden.
-
-If you prefer browsing the contents of this site through a list instead of a graph, you see a list of all [setup-related notes](/tags/setup).
-
-### Troubleshooting
-- 🚧 [Troubleshooting and FAQ](notes/troubleshooting.md)
-- 🐛 [Submit an Issue](https://github.com/jackyzha0/quartz/issues)
-- 👀 [Discord Community](https://discord.gg/cRFFHYye7t)
+So come and join me in the garden, where the growth is limitless. I look forward to helping you cultivate a better you!
 

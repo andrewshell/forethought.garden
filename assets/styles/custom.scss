@@ -12,6 +12,7 @@
   --outlinegray: #dadada;
   --million-progress-bar-color: var(--secondary);
   --highlighted: #f5dfaf88;
+  --logo: url("/favicon.svg");
 }
 
 [saved-theme="dark"] {
@@ -25,7 +26,18 @@
   --lightgray: #292633 !important;
   --outlinegray: #343434 !important;
   --highlighted: #574010;
+  --logo: url("/favicon-dark.svg");
 }
 
+.singlePage {
+  padding: 25px 5vw;
+  max-width: 42rem;
+  margin: 0 auto;
+}
 
-
+#page-title {
+  background-image: var(--logo);
+  background-repeat: no-repeat;
+  background-size: 1em 1em;
+  padding-left: 1.2em;
+}
