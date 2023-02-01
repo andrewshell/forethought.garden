@@ -10,7 +10,8 @@ enableSPA: true
 enableFooter: true
 enableContextualBacklinks: true
 enableRecentNotes: false
-enableGitHubEdit: true
+enableGitHubEdit: false
+enableGitInfo: true
 enableMermaid: true
 GitHubLink: https://github.com/andrewshell
 search:
@@ -22,6 +23,12 @@ description:
   Wikilink support, backlinks, local graph, tags, and link previews.
 page_title: |
   Forethought Garden
+frontmatter:
+  lastmod:
+    - lastmod
+    - :git
+    - date
+    - publishDate
 favicon: |
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -30,6 +37,9 @@ favicon: |
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="msapplication-TileColor" content="#ffc40d">
   <meta name="theme-color" content="#ffffff">
+navigation:
+  - link_name: Atlas
+    link: /atlas
 links:
   - link_name: Twitter
     link: https://twitter.com/andrewshell

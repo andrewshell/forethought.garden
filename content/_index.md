@@ -11,3 +11,6 @@ At Forethought Garden, personal growth is an ongoing journey, and everyone has t
 
 So come and join me in the garden, where the growth is limitless. I look forward to helping you cultivate a better you!
 
+## Where to Start?
+
+Start out with the [Atlas](atlas.md) which is a hub for all the content on the website.

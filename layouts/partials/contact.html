@@ -6,7 +6,7 @@
     <footer>
         {{ $name := $data.name | default $.Site.Data.config.name }}
         {{ $year := dateFormat "2006" now }}
-        <p>{{ i18n "copyright" (dict "name" $name "year" $year) | safeHTML}}</p>
+        <p>&copy {{$year}}, Built with <a href="https://github.com/jackyzha0/quartz">Quartz</a></p>
         <ul>
             {{- range $data.links | default $.Site.Data.config.links -}}
             <li><a href="{{.link}}"{{if .rel}} rel="{{.rel}}"{{end}}>{{.link_name}}</a></li>
