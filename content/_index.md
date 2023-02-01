@@ -3,6 +3,8 @@ title: Forethought Garden
 enableToc: false
 ---
 
+![An illustration of a futuristic garden where thoughts are grown](assets/dall-e%20forethought%20garden.png)
+
 Welcome to Forethought Garden, where I'll cultivate a rich and diverse collection of knowledge around tools for personal growth and self-improvement. My focus is on topics such as mindset, attitude, focus, discipline, and manifestation. I'll aim to provide a comprehensive resource for anyone seeking to improve their mental and emotional well-being.
 
 I understand the importance of having the right tools in your arsenal to navigate life's challenges and reach your full potential. That's why I have created this digital garden-style wiki, where you can find a wealth of information and resources to help you grow and develop.
