@@ -77,3 +77,16 @@ header {
     }
   }
 }
+
+figure {
+  border: 1px solid #ccc;
+  margin: 0;
+  padding: 1em;
+  img {
+    margin: 0 0 0.5em 0;
+  }
+  figcaption {
+    font-style: italic;
+    font-size: 80%;
+  }
+}

@@ -2,8 +2,22 @@
 {{$width := index (split .Text "|") 1 | default "auto" }}
 {{$external := strings.HasPrefix $src "http" }}
 {{- if $external -}}
-<img src="{{ $src }}" width="{{ $width }}" alt="{{ .Text }}" {{ with .Title }} title="{{ . }}" {{ end }} />
+{{ if .Title }}
+<figure>
+    <img src="{{ $src }}" width="{{ $width }}" alt="{{ .Text }}" />
+    <figcaption>{{ .Title }}</figcaption>
+</figure>
+{{ else }}
+<img src="{{ $src }}" width="{{ $width }}" alt="{{ .Text }}" />
+{{ end }}
 {{- else -}}
 {{$fixedUrl := (cond (hasPrefix $src "/") $src (print "/" $src)) | urlize}}
-<img src="{{.Page.Site.BaseURL}}{{ $fixedUrl }}" width="{{ $width }}" alt="{{ .Text }}" {{ with .Title }} title="{{ . }}" {{ end }} />
+{{ if .Title }}
+<figure>
+    <img src="{{.Page.Site.BaseURL}}{{ $fixedUrl }}" width="{{ $width }}" alt="{{ .Text }}" />
+    <figcaption>{{ .Title }}</figcaption>
+</figure>
+{{ else }}
+<img src="{{.Page.Site.BaseURL}}{{ $fixedUrl }}" width="{{ $width }}" alt="{{ .Text }}" />
+{{ end }}
 {{- end -}}
